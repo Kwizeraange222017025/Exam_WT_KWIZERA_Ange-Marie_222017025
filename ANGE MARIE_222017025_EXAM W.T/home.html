@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: blue;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: blue;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+    section{
+    padding:215px;
+    }
+      footer{
+    text-align: center;
+    padding: 15px;
+    background-color:darkgray;
+}
+header{
+    background-color:darkgray;
+    padding: 30px;
+}
+
+  </style>
+  
+<header>
+   
+
+</head>
+
+<body style="background-image: url('./Images/PPP.jpeg');background-repeat: no-repeat;background-size: cover;">
+
+  <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+    <img src="./Images/attachment.png" width="90" height="60" alt="Logo">
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./course.php">COURSE</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./enrollment.php">ENROLLMENT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./lesson.php">LESSON</a>
+  </li>
+   <li style="display: inline; margin-right: 10px;"><a href="./resource.php">RESOURCE</a>
+  </li>
+   <li style="display: inline; margin-right: 10px;"><a href="./assignment.php">ASSIGNMENT</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./submission.php">SUBMISSION</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./discussion_forum.php">DISCUSSION_FORUM</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./post.php">POST</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./quiz.php">QUIZ</a>
+  </li>
+
+
+    <li class="dropdown">
+      <a href="#" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+  </ul>
+
+</header>
+  <center>
+    <section id="home" style="display: block;">
+      <h1>Welcome to online learning management system</h1>
+    </section>
+  </center>
+  <footer>
+  <marquee><i style="color: green;">&copy; 2024</i><b>WEB TECHNOLOGY CAT</b></marquee>
+</footer>
+</body>
+</html>
